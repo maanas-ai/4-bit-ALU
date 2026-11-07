@@ -23,18 +23,16 @@ The ALU supports four basic operations:
 4_Bit_ALU/
 │
 ├── alu_4bit.v     # Main Verilog ALU implementation
-├── alu_4bit_tb.v       # Verilog testbench
+├── alu_4bit_tb.v  # Verilog testbench
 ├── alu.out        # Compiled simulation executable
-├── alu.vcd        # Simulation waveform file
 ├── README.md      # Project documentation
-└── circuit.circ   # Logisim circuit (if included)
+└── circuit.circ   # Logisim circuit 
 ```
 
 ## Technologies Used
 
 - **Verilog HDL** – Hardware description and ALU implementation.
 - **Icarus Verilog** – Verilog compilation and simulation.
-- **GTKWave** – Simulation waveform visualization.
 - **Logisim** – Digital logic circuit design.
 
 ## Getting Started
@@ -44,8 +42,7 @@ The ALU supports four basic operations:
 Install the following tools:
 
 1. [Icarus Verilog](https://bleyer.org/icarus/)
-2. [GTKWave](https://gtkwave.sourceforge.net/)
-3. [Logisim](https://www.logisim-evolution.org/) (for viewing the digital circuit)
+2. [Logisim](https://www.logisim-evolution.org/) (for viewing the digital circuit)
 
 ### Compilation
 
